@@ -96,6 +96,3 @@ After a successful run, the script writes these files into `outputs/`:
 - `enhanced_model_coefficients.csv`
 - Plot images when `--plot-mode save` is used
 
-## Paper Support
-
-`PaperDraft_revised_sections.md` contains polished replacement text for the assignment-update sections of the paper. It explains why the code was changed, how the model block was updated, and how the revised methodology aligns with the paper's claims.

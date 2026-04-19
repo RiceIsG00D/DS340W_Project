@@ -40,7 +40,6 @@ DS340W_Project/
 ├── data/
 │   └── *.csv
 ├── outputs/                      # generated after running the script
-├── PaperDraft_revised_sections.md
 ├── README.md
 └── requirements.txt
 ```

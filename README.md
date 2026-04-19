@@ -80,6 +80,7 @@ On Windows:
 
 ```powershell
 py -m venv .venv
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 .\.venv\Scripts\activate
 ```
 
@@ -87,7 +88,6 @@ On macOS or Linux:
 
 ```bash
 python3 -m venv .venv
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 source .venv/bin/activate
 ```
 
@@ -104,7 +104,7 @@ pip install -r requirements.txt
 The standard run command is:
 
 ```powershell
-python code/project_code.py
+py code/project_code.py
 ```
 
 This will:
@@ -119,13 +119,13 @@ This will:
 Skip plots entirely:
 
 ```powershell
-python code/project_code.py --plot-mode skip
+py code/project_code.py --plot-mode skip
 ```
 
 Show plots interactively instead of saving them:
 
 ```powershell
-python code/project_code.py --plot-mode show
+py code/project_code.py --plot-mode show
 ```
 
 ### 7. Confirm the run worked

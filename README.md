@@ -79,7 +79,7 @@ This isolates the project dependencies from the rest of your machine.
 On Windows:
 
 ```powershell
-python -m venv .venv
+py -m venv .venv
 .\.venv\Scripts\activate
 ```
 
@@ -87,6 +87,7 @@ On macOS or Linux:
 
 ```bash
 python3 -m venv .venv
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 source .venv/bin/activate
 ```
 
